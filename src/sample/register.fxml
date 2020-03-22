@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #31b2cf;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.RegisterController">
+   <children>
+      <Button layoutX="89.0" layoutY="292.0" mnemonicParsing="false" onAction="#create" prefHeight="33.0" prefWidth="128.0" style="-fx-background-color: #FFFFFF;" text="Create Account">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Button>
+      <TextField fx:id="nickField" layoutX="119.0" layoutY="168.0" />
+      <PasswordField fx:id="passField" layoutX="119.0" layoutY="227.0" />
+      <Label layoutX="38.0" layoutY="170.0" text="Nickname :">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <Label layoutX="40.0" layoutY="229.0" text="Password :">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <Label layoutX="18.0" layoutY="27.0" prefHeight="49.0" prefWidth="328.0" text="Thank you for registering into our service.">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="36.0" layoutY="73.0" text="- Macrohard team">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="53.0" layoutY="355.0" text="Do not tell your password to anybody" />
+      <Label layoutX="382.0" layoutY="168.0" text="Have account already ?">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="410.0" layoutY="225.0" text="Just Log in ! ">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="369.0" layoutY="292.0" mnemonicParsing="false" onAction="#goBack" prefHeight="33.0" prefWidth="201.0" style="-fx-background-color: #FFFFFF;" text="Take me back to login screen">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="132.0" fitWidth="234.0" layoutX="352.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/C:/Users/Matej/Desktop/try/logo.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

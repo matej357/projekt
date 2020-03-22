@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #31b2cf;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.DeleteController">
+   <children>
+      <Button layoutX="183.0" layoutY="66.0" mnemonicParsing="false" onAction="#delete" prefHeight="36.0" prefWidth="84.0" style="-fx-background-color: #FFFFFF;" text="Yes">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Button>
+      <Button layoutX="334.0" layoutY="66.0" mnemonicParsing="false" onAction="#noDelete" prefHeight="36.0" prefWidth="84.0" style="-fx-background-color: #FFFFFF;" text="No">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Button>
+      <Label layoutX="87.0" layoutY="26.0" text="Are you sure, you want to delete your account ?">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font></Label>
+      <Label layoutX="137.0" layoutY="132.0" text="If you delete the account, you won't be able to login anymore" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="226.0" layoutY="176.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/C:/Users/Matej/Desktop/try/nouser_photo.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
